@@ -6,6 +6,10 @@ configuration for the toolchain and firmware.
 You need to have installed gcc, binutils, bzip2, flex, python, perl, make,
 find, grep, diff, unzip, gawk, getopt, subversion, libz-dev and libc headers.
 
+sudo apt update
+sudo apt install git-core build-essential libssl-dev libncurses5-dev unzip gawk zlib1g-dev 
+sudo apt install subversion mercurial flex gettext gcc-multilib
+
 Run "./scripts/feeds update -a" to get all the latest package definitions
 defined in feeds.conf / feeds.conf.default respectively
 and "./scripts/feeds install -a" to install symlinks of all of them into
